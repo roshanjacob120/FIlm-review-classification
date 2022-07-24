@@ -1,0 +1,108 @@
+
+body
+	{
+		background: #ffffff;
+		background-image: url('slide-1.jpg');
+    background-size: cover;
+   font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+	}
+  #movienotfound
+  {
+    color: firebrick;
+  }
+.search
+{
+  
+  width: 320px;
+  height: 374px;
+ 
+  font-family: cursive;
+  background-color:rgba(255,255,255,.5);
+  border-radius: 20px;
+  margin:0 auto;
+  padding-top: 87px;
+  
+}
+#movinp{
+  background-color: #ffffff;
+  opacity: 1;
+  height: 52px;
+  width: 258px;
+  margin-left: 33px;
+  font-family:'Times New Roman', Times, serif
+}
+.button
+{
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgba(229, 9, 20, 1);
+  opacity: 1;
+  height: 47px;
+  width: 128px;
+  border-radius: 7px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#movout{
+  margin:0 auto;
+  height: 46px;
+  width: 82px;
+  font-family: cursive;
+}
+
+html,body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 100%;
+}
+
+
+
+
+
+
+
+/* home section */
+#home {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+        align-items: center;
+  text-align: center;
+  height: 100vh;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+/* Mobile Responsive */
+@media (max-width: 980px) {
+
+
+  #home {
+    height: 65vh;
+  }
+
+}
+
+
+
+
+@media (max-width: 700px) {
+
+  #home {height: 100vh;}
+
+
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Film review classification</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<!-- stylesheets css -->
+	<link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.min.css')}}">
+	<link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+</head>
+<body>
+
+
+<!-- home section -->
+<section id="home">
+	
+		<div class="search">
+      <form action="" method="post">
+			<input type="text" name="filmname" class="form-control" id="movinp" placeholder="Enter film name" value="{{film}}">
+            <button type="submit" class="button ">Search</button>
+          </form>
+			<input  class="form-control" id="movout" placeholder="" value="{{value}}">
+			<br>
+			<br>
+			<label id="movienotfound">{{tex}}</label>
+		</div>
+
+		
+	</div>		
+</section>
+
+</body>
+</html>
